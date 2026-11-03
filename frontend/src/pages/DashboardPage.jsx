@@ -30,7 +30,7 @@ export function DashboardPage() {
           <div className="flex items-center gap-2 mb-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-success" />
             <span className="font-mono text-[11px] uppercase tracking-[0.08em] text-ink-400">
-              workspace overview
+              workspace overview!!!!!!
             </span>
           </div>
           <h1 className="text-[30px] font-semibold leading-none tracking-[-0.6px]">Good to see you, Sandeep.</h1>
