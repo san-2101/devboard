@@ -1,4 +1,5 @@
 # Goal: To deploy the built images from CI Steps once the CI Worklow is Succeeded
+# add docker cerdentials to the secrets of the repo and add the username to the vars of the repo
 
 name: CD
 
@@ -25,4 +26,4 @@ jobs:
             - name: Deploy the containers with Docker Compose
               run: |
                 docker compose pull
-                docker compose up -d
+                docker compose up -d --force-recreate
