@@ -45,6 +45,7 @@ jobs:
                 context: ./frontend
                 push: true
                 tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-frontend:latest
+                no-cache: true
                 
     backend:
         # Github runner
